@@ -5,5 +5,5 @@
   - name: Restarting SSHD service
     service:
       name: sshd
-      state: restart
+      state: restarted
 
