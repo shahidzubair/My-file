@@ -1,0 +1,9 @@
+---
+- name: Testing Playbook
+  hosts: all
+  tasks:
+  - name: Restarting SSHD service
+    service:
+      name: sshd
+      state: restart
+
